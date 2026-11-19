@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Xanh+Mono:ital@0;1&display=swap');
+
+header {
+    background-color: #4A780D;
+    font-family: "Special Elite", serif;
+    display: grid;
+    grid-template-columns: 160px auto;
+    font-size: larger;
+    color: #111225;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    width: 110px;
+    height: 110px;
+    justify-content: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    color: #111225;
+    text-decoration: none;
+    padding: 40px;
+    border-style: solid;
+    border-color: #4A780D;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+nav a:hover {
+    border-color: #129143;
+    background-color: #129143;
+    color: #E9C237;
+}
+
+/*Index Page*/
+
+
+/*Obituary Page*/
+#obitback {
+    background-color: #3b7953;
+}
+
+#headerobituary {
+    background-color: #129143;
+    color: black;
+}
+
+#navobituary a {
+    border-color: #129143;
+    color: black;
+}
+
+#navobituary a:hover {
+    border-color: #E9D795;
+    background-color: #E9D795;
+}
+
+#obituarybody {
+    background-color: #ccbb7f;
+    margin: 5% 10% 5% 10%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#obittitle {
+    text-align: center;
+    margin: 30px;
+}
+
+#obitpic {
+    width: 200px;
+    margin: 20px;
+    border: solid #111225 5px;
+    border-radius: 10px;
+}
+
+#obittext, #obitquote {
+    margin-left: 10%;
+    margin-right: 10%;
+}S
+
+/*As Write as Snow Blog*/
+#blogbody {
+    background-color:#FFF4CC
+}
+
+#headerblog {
+    background-color: lightslategray;
+    font-family: "Special Elite", serif;
+    display: grid;
+    grid-template-columns: 160px auto;
+    font-size: larger;
+    color: #111225;
+}
+
+#navblog a {
+    text-align: center;
+    color: #111225;
+    text-decoration: none;
+    padding: 40px;
+    border-style: solid;
+    border-color: lightslategray;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#navblog a:hover {
+    border-color: #FFC1C1;
+    background-color: #FFC1C1;
+    color: #111225;
+}
+
+#contentblog {
+    display: flex;
+    flex-direction: column;
+}
+
+#bio {
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: solid 3px #111225;
+    align-items: center;
+}
+
+#biotitle {
+    font-family: "Special Elite", serif;
+    text-decoration: underline;
+    color: #111225;
+}
+
+#biopic {
+    width: 100px;
+    border:solid #111225 3px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#biotext {
+    color: #111225;
+    font-family: "Xanh Mono", serif;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#blog {
+    border: solid 3px gray;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 80px 50px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#profile {
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 100%;
+    width: 50px;
+    margin: 10px;
+    border: solid #111225 2px;
+}
+
+h4{
+    grid-row: 1;
+    grid-column: 1/5;
+    margin: 40px;
+    margin-left: 80px;
+    font-family: "Xanh Mono", serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: gray;
+}
+
+#blogtitle {
+    text-align: center;
+    grid-row: 2;
+    grid-column: 3/5;
+    font-weight: bolder;
+    font-family: "Special Elite", serif;
+    color: #111225;
+}
+
+p {
+    margin: 20px;
+    grid-row: 3;
+    grid-column: 1/7;
+    color: #111225;
+}

@@ -43,7 +43,38 @@ nav a:hover {
 }
 
 /*Index Page*/
+#indexbody {
+    background-color: #111225;
+}
 
+#indexmain {
+    background-color:#FFF4CC;
+    padding: 20px;
+    margin: 5% 10% 5% 10%;
+}
+
+#creditbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#maddy, #lucy, #jaylie, #carter, #sophie, #autumn, #robyn {
+    border: solid #111225 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#credits {
+    height: 200px;
+    border: solid #111225 2px;
+    border-radius: 2px;
+    margin: 10px;
+
+}
 
 /*Obituary Page*/
 #obitback {
@@ -66,7 +97,7 @@ nav a:hover {
 }
 
 #obituarybody {
-    background-color: #ccbb7f;
+    background-color: #E9D795;
     margin: 5% 10% 5% 10%;
     display: flex;
     flex-flow: column wrap;

@@ -198,20 +198,23 @@ nav a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-#profile {
+#profile, #profilecontent {
     grid-row: 1;
     grid-column: 1;
     border-radius: 100%;
     width: 50px;
     margin: 10px;
+}
+
+#profile {
     border: solid #111225 2px;
 }
 
 h4{
     grid-row: 1;
     grid-column: 1/5;
-    margin: 40px;
-    margin-left: 80px;
+    margin: 50px;
+    margin-left: 90px;
     font-family: "Xanh Mono", serif;
     font-weight: lighter;
     font-style: italic;
